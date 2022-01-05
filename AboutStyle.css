@@ -1,0 +1,15 @@
+.intro{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 150%;
+    font-family: Oswald, serif;
+    font-weight: bold;
+}
+
+.text{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    font-size: 125%;
+    font-family: Oswald, serif;
+}
