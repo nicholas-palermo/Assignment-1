@@ -10,6 +10,8 @@
     <title>Conserve Our Climate | Home</title>
 </head>
 <body>
+
+    <!--Navigation Bar and Menu-->
    <header>
         <div class="menuBar">
             <div class="logo">
@@ -24,5 +26,83 @@
             </nav>
         </div>
    </header>
+
+   <!--Hero Banner-->
+   <div class="hero">
+        <span>
+            <h1>Climate Change Cannot Wait.</h1>
+            <a href="TakeAction.html">Take Action Now!</a>
+        </span>
+   </div>
+
+   <!--Action Menu-->
+   <div class="actionMenu">
+        <ul>
+            <li>
+                <a href="About.html"><img src="Related Files/readAboutIcon.png"></a>
+                <h2>About Us</h2>
+            </li>
+
+            <li>
+                <a href="TakeAction.html"><img src="Related Files/takeActionIcon.png"></a>
+                <h2>Take Action</h2>
+            </li>
+
+            <li>
+                <a href="#contactForm"><img src="Related Files/contactUsIcon.png"></a>
+                <h2>Contact Us</h2>
+            </li>
+        </ul>
+   </div>
+
+   <!--Contact Form-->
+   <div id="contactForm" class="contact">
+        <h1>Get In Touch</h1>
+        <form class="contactForm">
+            <label for="nameID">Full Name</label>
+            <br />
+            <input type="text" required name="fullName" id="fullNameId" placeholder="Your full name">
+            <br />
+            <label for="emailID">Email</label>
+            <br />
+            <input type="email" required name="email" id="emailId" placeholder="Your email address">
+            <br />
+            <label for="phoneID">Phone Number</label>
+            <br />
+            <input type="tel" required name="phoneNumber" id="phoneId" placeholder="Your phone number">
+            <br />
+            <label for="reasonForContact">Reason For Contact</label>
+            <br />
+            <select name="reasonForContact">
+                <option value="moreInfo">More Information</option>
+                <option value="donate">To Donate</option>
+                <option value="joinOrg">Join Our Organization</option>
+                <option value="other">Other (please specify in message)</option>
+                </select>
+            <br />
+            <label for="messageID">Your Message</label>
+            <br />
+            <textarea required name="message" placeholder="Enter your message..." cols="50" rows="15"></textarea>
+            <br />
+
+            <p>
+                <input class="button" type="submit" name="sendMessage" value="Send Message">
+            </p>    
+        </form>
+    </div>
+
+
+    <footer>
+        <div class="footerCpyRt">
+            <h1>Contact Us:</h1>
+            <a href="mailto: conserveourclimate@fakeemail.com">conserveourclimate@fakeemail.com</a>
+            <p>Copyright © 2022 Conserve Our Climate</p>
+            <p class="authors">Website designed by: Nicholas Palermo, Dominick Sclafani, & Sebastian Guachichullca</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+   
 </body>
 </html>

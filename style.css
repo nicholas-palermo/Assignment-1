@@ -1,6 +1,6 @@
 .menuBar > div {
     float: left;
-    padding-top: 25px;
+    padding-top: 17px;
     padding-left: 40px;
     font-size: 24pt;
     font-family: Cardo, serif;
@@ -9,13 +9,13 @@
 
 .menuBar > div > a:link, .menuBar div > a:visited {
     text-decoration: none;
-    color: black;
+    color: white;
     font-family: Oswald, serif;
     text-transform: uppercase;
 }
 
 .navBar{
-    background-color: rgba(7, 121, 32, 0.548);
+    background-color: mediumseagreen;
     height:80px;
     margin: 0px;
     padding:0px;
@@ -23,7 +23,7 @@
 
 .navBar > ul{
     text-align: right;
-    padding-top: 35.5px;
+    padding-top: 30px;
     padding-right: 40px;
     margin:0px;
 }
@@ -36,7 +36,7 @@
 }
 
 .navBar > ul > li > a:link, .navBar > ul > li > a:visited{
-    color: black;
+    color: white;
     text-decoration: none;
     font-family: Oswald, sans-serif;
     text-transform: uppercase;
@@ -45,3 +45,29 @@
 body {
     margin: 0;
 }
+
+footer {
+    float: inline-start;
+    width: 100%;
+    bottom: 0;
+    background-color: mediumseagreen;
+    margin: 0px;
+    padding:0px;
+  }
+
+  footer h1 {
+      font-size: large;
+      font-family: Oswald, sans-serif;
+  }
+
+  footer a:link, footer a:visited {
+      color: white;
+  }
+  
+  .footerCpyRt {
+      text-align: center;
+      color: whitesmoke;
+      padding-top: 15px;
+  }
+
+
