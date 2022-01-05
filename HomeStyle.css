@@ -1,0 +1,108 @@
+.hero {
+    float: inline-start;
+    width: 100vw;
+    height: 40vw;
+    text-align: center;
+    vertical-align: middle;
+    background-position: center top;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/Related\ Files/hero_image_windTurbine.jpg);
+}
+
+.hero span {
+    float: right;
+    margin-top: 15%;
+    margin-right: 40.5%;
+    margin-left: 35%;
+    margin-bottom: 15%;
+}
+
+.hero span h1 {
+   font-family: Oswald, sans-serif;
+   color: white;
+}
+
+.hero span a:link, .hero span a:visited {
+    color: white;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+    background-color: mediumseagreen;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hero span a:hover {
+    filter: grayscale(100%);
+}
+
+.actionMenu {
+    float: inline-start;
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    font-family: Oswald, sans-serif;
+}
+
+.actionMenu ul {
+    margin-left: 19vw;
+}
+
+.actionMenu ul li {
+    float: left;
+    display: inline;
+    text-align: center;
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-top: 2vw;
+    padding-bottom: 2vw;
+}
+
+
+.actionMenu ul li a img{
+    padding: 20px;
+    background-color: mediumseagreen;
+    border-radius: 100px;
+    height: 5vw;
+    
+}
+
+.actionMenu ul li a img:hover {
+    filter: grayscale(100%);
+}
+
+.contact {
+    float: inline-start;
+    padding-left: 32.5%;
+    font-size: 1vw;
+    width: 35%;
+}
+
+.contact h1 {
+    font-family: Oswald, sans-serif;
+    padding-top: 1vw;
+    text-align: center;
+    font-size: 2vw;
+}
+
+.contactForm label {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+}
+
+.contactForm input {
+    width: 100%;
+    height: 20px;
+}
+
+.contactForm select {
+    width: 100%;
+}
+
+.contactForm textarea {
+    width: 100%;
+}
+
+.contactForm .button:hover {
+    background-color: mediumseagreen;
+    border-radius: 8px;
+    color: white;
+}
