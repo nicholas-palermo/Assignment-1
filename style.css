@@ -1,0 +1,50 @@
+<<<<<<< Updated upstream
+=======
+.menuBar > div {
+    float: left;
+    padding-top: 17px;
+    padding-left: 40px;
+    font-size: 24pt;
+    font-family: Cardo, serif;
+    font-weight: bold;
+}
+
+.menuBar > div > a:link, .menuBar div > a:visited {
+    text-decoration: none;
+    color: white;
+    font-family: Oswald, serif;
+    text-transform: uppercase;
+}
+
+.navBar{
+    background-color: mediumseagreen;
+    height:80px;
+    margin: 0px;
+    padding:0px;
+}
+
+.navBar > ul{
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 40px;
+    margin:0px;
+}
+
+.navBar > ul > li{
+    display: inline;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+}
+
+.navBar > ul > li > a:link, .navBar > ul > li > a:visited{
+    color: white;
+    text-decoration: none;
+    font-family: Oswald, sans-serif;
+    text-transform: uppercase;
+}
+
+body {
+    margin: 0;
+}
+>>>>>>> Stashed changes
