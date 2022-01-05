@@ -46,3 +46,28 @@ body {
     margin: 0;
 }
 
+footer {
+    float: inline-start;
+    width: 100%;
+    bottom: 0;
+    background-color: mediumseagreen;
+    margin: 0px;
+    padding:0px;
+  }
+
+  footer h1 {
+      font-size: large;
+      font-family: Oswald, sans-serif;
+  }
+
+  footer a:link, footer a:visited {
+      color: white;
+  }
+  
+  .footerCpyRt {
+      text-align: center;
+      color: whitesmoke;
+      padding-top: 15px;
+  }
+
+
